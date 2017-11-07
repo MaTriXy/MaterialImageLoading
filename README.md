@@ -9,24 +9,26 @@ Material image loading implementation
 
 [![Build screen](https://raw.githubusercontent.com/florent37/MaterialImageLoading/master/app/src/main/res/drawable/description_small.png)](https://raw.githubusercontent.com/florent37/MaterialImageLoading/master/app/src/main/res/drawable/description.png)
 
-#Sample
+# Sample
 
-You can find a sample APK : [Link](https://github.com/florent37/MaterialImageLoading/releases/download/1.0.0/sample-debug.apk)
+<a href="https://play.google.com/store/apps/details?id=com.github.florent37.florent.champigny">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
 
 And have a look on a sample Youtube Video : [Youtube Link](https://www.youtube.com/watch?v=hvHzVnMTYGk)
 
 [![Video](http://share.gifyoutube.com/ygz6n4.gif)] (https://www.youtube.com/watch?v=hvHzVnMTYGk)
 
-#Download
+# Download
+
+<a href='https://ko-fi.com/A160LCC' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 In your module [![Download](https://api.bintray.com/packages/florent37/maven/MaterialImageLoading/images/download.svg)](https://bintray.com/florent37/maven/MaterialImageLoading/_latestVersion)
 ```groovy
-compile ('com.github.florent37:materialimageloading:1.0.1@aar'){
-    transitive=true
-}
+compile 'com.github.florent37:materialimageloading:1.0.2'
 ```
 
-#Usage
+# Usage
 
 Simply use MaterialImageLoading.animate
 for example
@@ -45,28 +47,25 @@ Picasso.with(this).load(url).fit().centerCrop().into(imageView, new Callback() {
         });
 ```
 
-#TODO
+# TODO
 
-#Community
+# Community
 
 Looking for contributors, feel free to fork !
 
 Tell me if you're using my library in your application, I'll share it in this README
 
-#Changelog
-
-##1.0.1
-
-- Backport to API 10 using NineOldAndroid
-
-#Thanks
+# Thanks
 
 * [Picasso][picasso] used for the sample (from Square)
 
-#Credits
+# Credits
 
-Author: Florent Champigny
+Author: Florent Champigny www.florentchampigny.com/
 
+<a href="https://play.google.com/store/apps/details?id=com.github.florent37.florent.champigny">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
 <a href="https://plus.google.com/+florentchampigny">
   <img alt="Follow me on Google+"
        src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/gplus.png" />
@@ -75,7 +74,7 @@ Author: Florent Champigny
   <img alt="Follow me on Twitter"
        src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/twitter.png" />
 </a>
-<a href="https://www.linkedin.com/profile/view?id=297860624">
+<a href="https://www.linkedin.com/in/florentchampigny">
   <img alt="Follow me on LinkedIn"
        src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/linkedin.png" />
 </a>
